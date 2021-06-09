@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B0A11591-0F6B-453E-9ECF-7BEF50402CC1}" SchemaVersion="103" RootDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" ParentDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}">
+	<AudioObjects>
+		<WorkUnit Name="NPCs(Dialogue)" ID="{B0A11591-0F6B-453E-9ECF-7BEF50402CC1}" OwnerID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="NPCs" ID="{9B36FB45-F93C-44B7-98DC-48358F5C385A}" ShortID="774136151">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="4"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B893200-C8D5-4BF8-A442-FA23107C5A10}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="NPCs(Dialogue)" ID="{81EF7C7C-54D8-4094-9966-B00AC6D6D6F6}" WorkUnitID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

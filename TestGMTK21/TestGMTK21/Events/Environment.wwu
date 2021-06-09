@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8A305925-564A-4FC5-A090-DE6CE9ED7C7E}" SchemaVersion="103" RootDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" ParentDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}">
+	<Events>
+		<WorkUnit Name="Environment" ID="{8A305925-564A-4FC5-A090-DE6CE9ED7C7E}" OwnerID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="3"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Ambience" ID="{FF929A6F-7391-40E4-8EFD-7C72B038D99C}" ShortID="898966322">
+					<ChildrenList>
+						<Event Name="SFX_Play_3D_Emitter_Ambience" ID="{343B702D-D9F3-4798-8F12-97CB952E8346}">
+							<ChildrenList>
+								<Action Name="" ID="{B8304CE5-951E-4A74-90E2-F065972C96B3}" ShortID="653792203">
+									<PropertyList>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3D Emitter Ambience" ID="{814F7E84-B8B2-4C09-80C0-F92D19F97B2C}" WorkUnitID="{0DDC35C2-9F62-40D5-8EDB-73FA5B7C9AAA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SFX_Stop_3D_Emitter_Ambience" ID="{2BE4B222-78D3-4C4D-8C14-08245099B174}">
+							<ChildrenList>
+								<Action Name="" ID="{B5D6FBF7-48E1-4D2D-8A8C-23A2CC4B7A6B}" ShortID="770202831">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3D Emitter Ambience" ID="{814F7E84-B8B2-4C09-80C0-F92D19F97B2C}" WorkUnitID="{0DDC35C2-9F62-40D5-8EDB-73FA5B7C9AAA}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

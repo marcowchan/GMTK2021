@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Stop_All" ID="{3222EEDE-5A4E-4B48-BF1D-223FB99130FB}">
+					<ChildrenList>
+						<Action Name="" ID="{BB9E277B-21C5-4652-8F40-5ACFDC867788}" ShortID="173080117">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="SFX" ID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" ShortID="921632471">
+					<ChildrenList>
+						<WorkUnit Name="Enemy" ID="{2990CCBF-63D9-4C95-90E9-6F352C50D6FB}" PersistMode="Reference"/>
+						<WorkUnit Name="Player Character" ID="{6EC7A4E1-6056-4BDC-9B0D-3E7C1A04AD35}" PersistMode="Reference"/>
+						<WorkUnit Name="NPCs (Dialogue)" ID="{6B964392-C130-47F5-9A1D-9D1F5A78A34F}" PersistMode="Reference"/>
+						<WorkUnit Name="Environment" ID="{8A305925-564A-4FC5-A090-DE6CE9ED7C7E}" PersistMode="Reference"/>
+						<WorkUnit Name="General Game" ID="{C696D394-4E7F-46F6-B99B-E040D5284326}" PersistMode="Reference"/>
+						<WorkUnit Name="Objects" ID="{4B4680B3-8FF6-46FA-BFA4-DCAF06FC04A2}" PersistMode="Reference"/>
+						<WorkUnit Name="UI" ID="{F9D342C9-EE42-4D73-BC6A-3348EFCA836C}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{4E1D2BE3-CEDF-4D07-A305-071B15E8E853}" ShortID="17137557">
+					<ChildrenList>
+						<WorkUnit Name="Music" ID="{7AA34EB4-F45B-4CE7-B3EA-8665CAA8F739}" PersistMode="Reference"/>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

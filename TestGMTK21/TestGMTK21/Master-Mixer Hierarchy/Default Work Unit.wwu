@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}" SchemaVersion="103">
+	<Busses>
+		<WorkUnit Name="Default Work Unit" ID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}" PersistMode="Standalone">
+			<ChildrenList>
+				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<ReferenceList>
+						<Reference Name="AudioDevice">
+							<ObjectRef Name="System" ID="{E8188F67-21FE-4EFC-B023-6A97259E8789}" WorkUnitID="{DCF69A0C-EBA2-4E26-B5E5-20C962894E7C}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="SFX" ID="{1130E5F1-774D-43A7-97BA-202A1D05BD6E}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="26"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Bus Name="UI" ID="{E64784C6-9EC5-414B-A16D-BDE53E390BF8}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="27"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Player Character" ID="{01BD231F-642A-44DF-81AD-1970FD18F26B}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Objects" ID="{6D9FE7B2-363C-400C-9ABE-7DC752E563C3}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="13"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Enemies" ID="{8644EE9B-71BC-4940-9464-E945166E6204}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="NPCs(Dialogue)" ID="{81EF7C7C-54D8-4094-9966-B00AC6D6D6F6}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="4"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Environment" ID="{E78F12B3-F7C0-4577-AC35-1B77AC66CDC3}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="3"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
+							</ChildrenList>
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Music" ID="{28056B02-2029-4186-9B08-320AD98D9E1A}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="19"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists/>
+						</Bus>
+						<AuxBus Name="Env_01" ID="{2E06A2A3-C6BA-4A16-B15B-35A5A55AA51A}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Main" ID="{AFED7D85-3ADA-41DB-9923-76E570147B4F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Section_01" ID="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}"/>
+										<CustomState Name="" ID="{B657FCA2-0D7E-480C-A342-636D63C641E0}" ShortID="169489464">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_03" ID="{4D3FC8AB-68C7-4481-99CD-43B01CEF5D86}"/>
+										<CustomState Name="" ID="{05F33224-6FEE-4FF5-8924-5861E91B7ADC}" ShortID="516648094"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title_Screen" ID="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}"/>
+										<CustomState Name="" ID="{A483BD25-CACC-44A9-B670-4888C440FEB7}" ShortID="20359315">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{65DDA583-578B-47F3-BC93-2E7107CE2DBC}"/>
+										<CustomState Name="" ID="{92E4B7FF-3480-42C9-8B3F-AD6CD9BEA338}" ShortID="313648961"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_02" ID="{33A6E9D3-1DAD-4A2D-ACEB-5FFA861EB087}"/>
+										<CustomState Name="" ID="{F15DFFA5-3CF4-4441-838E-2D8F62B80C78}" ShortID="320483223"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Game_Over" ID="{24F2F3C5-1D50-4F61-82BC-24C89E671567}"/>
+										<CustomState Name="" ID="{686BB81F-6BB7-495F-B5ED-9B2ED897CCEA}" ShortID="967485987">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Env_02" ID="{76A28927-5A56-4F61-8DA4-5FFC4D551ADA}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Main" ID="{AFED7D85-3ADA-41DB-9923-76E570147B4F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Section_01" ID="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}"/>
+										<CustomState Name="" ID="{81C347B7-27A9-429B-AB34-74AC786EAE79}" ShortID="117526205"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_03" ID="{4D3FC8AB-68C7-4481-99CD-43B01CEF5D86}"/>
+										<CustomState Name="" ID="{7D0EA749-960F-4676-BF05-90AE66930F46}" ShortID="914992068"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title_Screen" ID="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}"/>
+										<CustomState Name="" ID="{9AC69F68-1318-4BC5-B5C5-79F61DCD1D4C}" ShortID="66554583"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{65DDA583-578B-47F3-BC93-2E7107CE2DBC}"/>
+										<CustomState Name="" ID="{41107083-68C4-4641-9AF6-2B4909B54F1A}" ShortID="157638988"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_02" ID="{33A6E9D3-1DAD-4A2D-ACEB-5FFA861EB087}"/>
+										<CustomState Name="" ID="{D2F2169B-C9ED-4363-A07F-565A75377BA9}" ShortID="727582665">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Game_Over" ID="{24F2F3C5-1D50-4F61-82BC-24C89E671567}"/>
+										<CustomState Name="" ID="{107CE505-758D-46F8-A808-140C4CA70688}" ShortID="270388585"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</AuxBus>
+						<AuxBus Name="Env_03" ID="{8241BBB9-91E6-4A14-91BE-7E136670A0A2}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="Main" ID="{AFED7D85-3ADA-41DB-9923-76E570147B4F}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Section_01" ID="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}"/>
+										<CustomState Name="" ID="{24881044-B0C8-441D-BE33-CB56A3E05DC3}" ShortID="720661400"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_03" ID="{4D3FC8AB-68C7-4481-99CD-43B01CEF5D86}"/>
+										<CustomState Name="" ID="{7F7806CD-E050-4069-A659-02FC5F51738F}" ShortID="269775368"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Title_Screen" ID="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}"/>
+										<CustomState Name="" ID="{51EE6F27-E61D-4D36-A00B-DB779B820DC1}" ShortID="354171101"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Victory" ID="{65DDA583-578B-47F3-BC93-2E7107CE2DBC}"/>
+										<CustomState Name="" ID="{0801CE94-7255-403D-B992-94C5D71DE21C}" ShortID="725815153"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Section_02" ID="{33A6E9D3-1DAD-4A2D-ACEB-5FFA861EB087}"/>
+										<CustomState Name="" ID="{A65FAE84-A297-4D4B-B5C5-630A5392B175}" ShortID="127125737"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Game_Over" ID="{24F2F3C5-1D50-4F61-82BC-24C89E671567}"/>
+										<CustomState Name="" ID="{C0D7E387-B67A-4049-9831-2A4A02164D04}" ShortID="533557121"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</AuxBus>
+					</ChildrenList>
+					<ObjectLists/>
+				</Bus>
+			</ChildrenList>
+		</WorkUnit>
+	</Busses>
+</WwiseDocument>

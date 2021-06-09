@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6B964392-C130-47F5-9A1D-9D1F5A78A34F}" SchemaVersion="103" RootDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" ParentDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}">
+	<Events>
+		<WorkUnit Name="NPCs (Dialogue)" ID="{6B964392-C130-47F5-9A1D-9D1F5A78A34F}" OwnerID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

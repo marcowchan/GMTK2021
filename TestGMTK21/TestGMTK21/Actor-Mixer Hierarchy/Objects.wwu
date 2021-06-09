@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{77BE53A9-65B1-4D44-ADB8-184C54E2F823}" SchemaVersion="103" RootDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" ParentDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}">
+	<AudioObjects>
+		<WorkUnit Name="Objects" ID="{77BE53A9-65B1-4D44-ADB8-184C54E2F823}" OwnerID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Objects" ID="{8C4C97AF-8DEA-4E96-850C-40BC25ACA080}" ShortID="81323424">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="13"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B893200-C8D5-4BF8-A442-FA23107C5A10}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Objects" ID="{6D9FE7B2-363C-400C-9ABE-7DC752E563C3}" WorkUnitID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<ActorMixer Name="Weapons" ID="{A691E7E9-6179-4FE9-87CB-6EFCEE593944}" ShortID="152022827">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B893200-C8D5-4BF8-A442-FA23107C5A10}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+						<ActorMixer Name="Interactables" ID="{B1A4F619-1DAF-4A48-BC6D-37C7696AA12C}" ShortID="292915486">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B893200-C8D5-4BF8-A442-FA23107C5A10}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}"/>
+								</Reference>
+							</ReferenceList>
+							<ObjectLists/>
+						</ActorMixer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

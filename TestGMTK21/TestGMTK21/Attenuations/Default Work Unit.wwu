@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{0433A764-46BC-4446-BB2A-D0992208E14F}" SchemaVersion="103">
+	<Attenuations>
+		<WorkUnit Name="Default Work Unit" ID="{0433A764-46BC-4446-BB2A-D0992208E14F}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Environment" ID="{A9AC5495-F173-4B18-B778-7D679FCD1F97}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemy" ID="{8EA1E2DA-6B83-4A17-A811-005C9507ED01}" PersistMode="Reference"/>
+				<WorkUnit Name="NPC(Dialogue)" ID="{3A328C08-0BCE-4883-A1F0-7262C541234F}" PersistMode="Reference"/>
+				<WorkUnit Name="Player Character" ID="{53FC63D8-0AF2-4B8C-84A8-2B9335917597}" PersistMode="Reference"/>
+				<WorkUnit Name="Objects" ID="{17DD0902-CDC7-461D-8ECF-DF0A92DE934A}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{4FCACAD3-B91C-47AA-8A80-47FAAA06ED4C}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

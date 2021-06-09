@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6EC7A4E1-6056-4BDC-9B0D-3E7C1A04AD35}" SchemaVersion="103" RootDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" ParentDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}">
+	<Events>
+		<WorkUnit Name="Player Character" ID="{6EC7A4E1-6056-4BDC-9B0D-3E7C1A04AD35}" OwnerID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Player_Death" ID="{A0A1A7CC-77E4-4306-867B-8225365F059F}"/>
+				<Event Name="Player_Respawn" ID="{5ED366AF-A0CD-4040-8109-E6287900F9B9}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

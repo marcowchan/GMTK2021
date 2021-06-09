@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ValidationCache Version="1" SchemaVersion="103">
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Virtual Acoustics\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Triggers\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\TestGMTK21.wproj" DateLow="1623274572" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\TestGMTK21.redfi.wsettings" DateLow="1623274600" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Switches\Default Work Unit.wwu" DateLow="1623211376" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\States\Default Work Unit.wwu" DateLow="1623261118" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\SoundBanks\Default Work Unit.wwu" DateLow="1623255514" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Queries\Factory Queries.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Queries\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Presets\Factory Spatial Audio.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Presets\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Modulators\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Mixing Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Metadata\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1623261118" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1623261290" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Game Parameters\Default Work Unit.wwu" DateLow="1623258578" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\UI.wwu" DateLow="1623261408" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Player Character.wwu" DateLow="1623258578" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Objects.wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\NPCs (Dialogue).wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Music.wwu" DateLow="1623261212" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Environment.wwu" DateLow="1623256072" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Enemy.wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Events\Default Work Unit.wwu" DateLow="1623255956" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Effects\Factory Effects.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Effects\Default Work Unit.wwu" DateLow="1623260512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Conversion Settings\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Control Surface Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Audio Devices\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\UI.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\Player Character.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\Objects.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\NPC(Dialogue).wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\Environment.wwu" DateLow="1623257930" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\Enemy.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Attenuations\Default Work Unit.wwu" DateLow="1623255616" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\User Interface.wwu" DateLow="1623217254" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\UI.wwu" DateLow="1623258624" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Player Character.wwu" DateLow="1623256348" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1623255050" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\NPCs.wwu" DateLow="1623210820" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\NPCs(Dialogue).wwu" DateLow="1623254920" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1623257350" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Enemy.wwu" DateLow="1623210820" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1623255592" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Ambiences.wwu" DateLow="1623210820" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Virtual Acoustics\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Triggers\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\TestGMTK21.wproj" DateLow="1623274572" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\TestGMTK21.redfi.wsettings" DateLow="1623279286" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Switches\Default Work Unit.wwu" DateLow="1623211376" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\States\Default Work Unit.wwu" DateLow="1623261118" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\SoundBanks\Default Work Unit.wwu" DateLow="1623275884" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Queries\Factory Queries.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Queries\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Presets\Factory Spatial Audio.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Presets\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Modulators\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Mixing Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Metadata\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1623261118" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1623261290" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Game Parameters\Default Work Unit.wwu" DateLow="1623258578" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\UI.wwu" DateLow="1623274776" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Player Character.wwu" DateLow="1623258578" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Objects.wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\NPCs (Dialogue).wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Music.wwu" DateLow="1623261212" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\General Game.wwu" DateLow="1623274682" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Environment.wwu" DateLow="1623256072" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Enemy.wwu" DateLow="1623254964" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Events\Default Work Unit.wwu" DateLow="1623274776" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Effects\Factory Effects.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Effects\Default Work Unit.wwu" DateLow="1623260512" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1623186176" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Conversion Settings\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Control Surface Sessions\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Audio Devices\Default Work Unit.wwu" DateLow="1623199028" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\UI.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\Player Character.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\Objects.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\NPC(Dialogue).wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\Environment.wwu" DateLow="1623257930" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\Enemy.wwu" DateLow="1623255476" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Attenuations\Default Work Unit.wwu" DateLow="1623255616" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\UI.wwu" DateLow="1623275670" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Player Character.wwu" DateLow="1623256348" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Objects.wwu" DateLow="1623255050" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\NPCs(Dialogue).wwu" DateLow="1623254920" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1623274966" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Enemy.wwu" DateLow="1623210820" DateHigh="0"/>
+	<ValidationCacheItem File="H:\Github\GMTK2021\TestGMTK21\TestGMTK21\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1623255592" DateHigh="0"/>
+</ValidationCache>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" SchemaVersion="103">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" PersistMode="Standalone">
+			<ChildrenList>
+				<WorkUnit Name="Player Character" ID="{97D45CCE-4B37-4BD3-8EAF-713184BCC961}" PersistMode="Reference"/>
+				<WorkUnit Name="Objects" ID="{77BE53A9-65B1-4D44-ADB8-184C54E2F823}" PersistMode="Reference"/>
+				<WorkUnit Name="Environment" ID="{0DDC35C2-9F62-40D5-8EDB-73FA5B7C9AAA}" PersistMode="Reference"/>
+				<WorkUnit Name="Enemy" ID="{261BA6B7-6CDA-4B7B-8293-C263499B1ADE}" PersistMode="Reference"/>
+				<WorkUnit Name="NPCs(Dialogue)" ID="{B0A11591-0F6B-453E-9ECF-7BEF50402CC1}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{1502254F-8931-4DED-9D59-53AE6B740E52}" PersistMode="Reference"/>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

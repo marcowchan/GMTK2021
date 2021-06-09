@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8EA1E2DA-6B83-4A17-A811-005C9507ED01}" SchemaVersion="103" RootDocumentID="{0433A764-46BC-4446-BB2A-D0992208E14F}" ParentDocumentID="{0433A764-46BC-4446-BB2A-D0992208E14F}">
+	<Attenuations>
+		<WorkUnit Name="Enemy" ID="{8EA1E2DA-6B83-4A17-A811-005C9507ED01}" OwnerID="{0433A764-46BC-4446-BB2A-D0992208E14F}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+		</WorkUnit>
+	</Attenuations>
+</WwiseDocument>

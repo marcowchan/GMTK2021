@@ -1,0 +1,8 @@
+Event	ID	Name			Wwise Object Path	Notes
+	216067002	UI_Confirm			\Default Work Unit\SFX\UI\UI_Confirm	
+	2024222415	UI_Back			\Default Work Unit\SFX\UI\UI_Back	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	740315522	UI_Back2	H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Untitled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\UI_Back2		49468
+	1058098390	UI Super Confirm_01	H:\Wwise Projects 2021\TestGMTK21\TestGMTK21\.cache\Windows\SFX\UI Super Confirm_01_5D763EFB.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\UI Super Confirm_01		232032
+

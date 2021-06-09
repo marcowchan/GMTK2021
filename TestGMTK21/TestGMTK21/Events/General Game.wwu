@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C696D394-4E7F-46F6-B99B-E040D5284326}" SchemaVersion="103" RootDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" ParentDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}">
+	<Events>
+		<WorkUnit Name="General Game" ID="{C696D394-4E7F-46F6-B99B-E040D5284326}" OwnerID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="27"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Launch_New_Game" ID="{756195D2-0B4F-4F78-9CDF-DA8AC7D42DE3}">
+					<ChildrenList>
+						<Action Name="" ID="{DB8E98C6-60F8-429B-80DD-56620B0D4F58}" ShortID="62364111">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Menu_Drone" ID="{2F327404-F55C-457D-B3DE-A93A7A85A8BC}" WorkUnitID="{1502254F-8931-4DED-9D59-53AE6B740E52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4C20A76E-2A7E-412C-BC6A-95A3DFD27A58}" ShortID="72391288">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Title_Screen" ID="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}" WorkUnitID="{D524777C-E205-4592-BBC7-85DCDB684383}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{447E519E-D22D-46E4-8EE2-ED8E44805899}" ShortID="804074105">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Music" ID="{131E1690-8F88-4B98-BA62-E7B2DFE1D606}" WorkUnitID="{ADE14B8C-2817-499D-93A1-C241A397D5A2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Start_Game" ID="{EFB251F4-30B0-48DC-A907-2F4124C31E77}">
+					<ChildrenList>
+						<Action Name="" ID="{6F78BDF6-9BC1-406C-8EF9-27A33E4BB81A}" ShortID="521815764">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="39"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RTPC_Player_Health" ID="{7208691C-EFC9-4796-B849-90D2F257C82D}" WorkUnitID="{E9B7205A-694E-4E2A-B43B-6165C65B1733}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{5F895182-F6C3-42EF-A4AB-7D29C781CB1A}" ShortID="413412043">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="3"/>
+								<Property Name="Scope" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Amb_Menu_Drone" ID="{2F327404-F55C-457D-B3DE-A93A7A85A8BC}" WorkUnitID="{1502254F-8931-4DED-9D59-53AE6B740E52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{573F0B01-202C-4EAE-B6E6-2109579CA216}" ShortID="1050318021">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="22"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Section_01" ID="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}" WorkUnitID="{D524777C-E205-4592-BBC7-85DCDB684383}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="End_Game_Success" ID="{152C7053-7E2E-4925-A2EE-555241881E3F}"/>
+				<Event Name="End_Game_Defeat" ID="{46150FE2-2398-4184-BB09-F900E330260A}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

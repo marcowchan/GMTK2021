@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F9D342C9-EE42-4D73-BC6A-3348EFCA836C}" SchemaVersion="103" RootDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}" ParentDocumentID="{AF19603A-1CF7-4D92-A3AA-59F94E41A34E}">
+	<Events>
+		<WorkUnit Name="UI" ID="{F9D342C9-EE42-4D73-BC6A-3348EFCA836C}" OwnerID="{F011D4B2-31AF-4188-9106-6B3ECD45CEC1}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="UI_Back" ID="{87364C9A-D0D8-4901-A7E0-B06E8F1BAA43}">
+					<ChildrenList>
+						<Action Name="" ID="{4E887ED5-407F-4F68-859B-F841463F4CF6}" ShortID="449938916">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI_Back2" ID="{96C77529-258E-4353-A94A-505529296140}" WorkUnitID="{1502254F-8931-4DED-9D59-53AE6B740E52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="UI_Confirm" ID="{48B3CE42-0B36-40DD-94FE-111DDAEA101B}">
+					<ChildrenList>
+						<Action Name="" ID="{09026ECA-4A4B-4F55-9B64-271A743C6708}" ShortID="192594408">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UI Super Confirm_01" ID="{1211E14E-0945-400A-B275-05AEEA939C1D}" WorkUnitID="{1502254F-8931-4DED-9D59-53AE6B740E52}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

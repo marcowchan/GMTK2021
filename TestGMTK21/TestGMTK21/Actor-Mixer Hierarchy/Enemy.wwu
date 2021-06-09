@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{261BA6B7-6CDA-4B7B-8293-C263499B1ADE}" SchemaVersion="103" RootDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" ParentDocumentID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}">
+	<AudioObjects>
+		<WorkUnit Name="Enemy" ID="{261BA6B7-6CDA-4B7B-8293-C263499B1ADE}" OwnerID="{745493D6-E743-4DE8-8B1B-FDDC50C329E3}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="Enemies" ID="{AC967CBD-D128-4D9C-AEE3-342022DBFC2A}" ShortID="47218380">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="10"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="OverrideOutput" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{2B893200-C8D5-4BF8-A442-FA23107C5A10}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Enemies" ID="{8644EE9B-71BC-4940-9464-E945166E6204}" WorkUnitID="{2AC498F0-2CCD-45C6-936C-4C36DFD94099}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

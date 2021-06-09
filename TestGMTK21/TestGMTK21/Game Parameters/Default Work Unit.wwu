@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{E9B7205A-694E-4E2A-B43B-6165C65B1733}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{E9B7205A-694E-4E2A-B43B-6165C65B1733}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="RTPC_Distance_5000" ID="{BF2AA37F-FD74-4909-828C-79868DAE9058}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="5000"/>
+						<Property Name="Max" Type="Real64" Value="5000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="RTPC_Player_Health" ID="{7208691C-EFC9-4796-B849-90D2F257C82D}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

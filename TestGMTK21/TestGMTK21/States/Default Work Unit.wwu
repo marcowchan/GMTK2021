@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D524777C-E205-4592-BBC7-85DCDB684383}" SchemaVersion="103">
+	<States>
+		<WorkUnit Name="Default Work Unit" ID="{D524777C-E205-4592-BBC7-85DCDB684383}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Main" ID="{AFED7D85-3ADA-41DB-9923-76E570147B4F}">
+					<ChildrenList>
+						<State Name="None" ID="{94FEA505-CC99-4CC0-A6E2-F995C38D40FB}"/>
+						<State Name="Title_Screen" ID="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}"/>
+						<State Name="Section_01" ID="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}"/>
+						<State Name="Game_Over" ID="{24F2F3C5-1D50-4F61-82BC-24C89E671567}"/>
+						<State Name="Section_02" ID="{33A6E9D3-1DAD-4A2D-ACEB-5FFA861EB087}"/>
+						<State Name="Section_03" ID="{4D3FC8AB-68C7-4481-99CD-43B01CEF5D86}"/>
+						<State Name="Victory" ID="{65DDA583-578B-47F3-BC93-2E7107CE2DBC}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</States>
+</WwiseDocument>
