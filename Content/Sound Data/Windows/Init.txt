@@ -1,0 +1,38 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	3161908922	Main			\Default Work Unit\Main	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Main			
+	1156398956	Section_01	Main			
+	1156398958	Section_03	Main			
+	1156398959	Section_02	Main			
+	1432716332	Game_Over	Main			
+	2716678721	Victory	Main			
+	3853285476	Title_Screen	Main			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	20359315	Title_Screen	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
+	169489464	Section_01	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
+	727582665	Section_02	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
+	967485987	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	225339039	Player Character			\Default Work Unit\Master Audio Bus\SFX\Player Character	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
+	1551306167	UI			\Default Work Unit\Master Audio Bus\SFX\UI	
+	1695690031	Objects			\Default Work Unit\Master Audio Bus\SFX\Objects	
+	2242381963	Enemies			\Default Work Unit\Master Audio Bus\SFX\Enemies	
+	3256036386	NPCs(Dialogue)			\Default Work Unit\Master Audio Bus\SFX\NPCs(Dialogue)	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Auxiliary Bus	ID	Name			Wwise Object Path	Notes
+	1097378212	Env_01			\Default Work Unit\Master Audio Bus\Env_01	
+	1097378214	Env_03			\Default Work Unit\Master Audio Bus\Env_03	
+	1097378215	Env_02			\Default Work Unit\Master Audio Bus\Env_02	
+
+Audio Devices	ID	Name	Type				Notes
+	2317455096	No_Output	No Output			
+	3859886410	System	System			
+
