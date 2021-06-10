@@ -70,5 +70,8 @@ Saved/*
 Intermediate/*
 Plugins/*/Intermediate/*
 
+!Plugins/Wwise/ThirdParty/x64_vc160/Profile/bin/**
+!Plugins/Wwise/ThirdParty/x64_vc150/Profile/bin/**
+
 # Cache files for the editor to use
 DerivedDataCache/*
