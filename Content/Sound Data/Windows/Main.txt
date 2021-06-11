@@ -1,8 +1,25 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1517537939	Confirm			\Default Work Unit\SFX\UI\Confirm	
 	1559875400	Back			\Default Work Unit\SFX\UI\Back	
+	1981978752	Launch_New_Game			\Default Work Unit\SFX\UI\Launch_New_Game	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3161908922	Main			\Default Work Unit\Main	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Main			
+	1156398956	Section_01	Main			
+	1156398958	Section_03	Main			
+	1156398959	Section_02	Main			
+	1432716332	Game_Over	Main			
+	2716678721	Victory	Main			
+	3853285476	Title_Screen	Main			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	397574501	Title Theme - The Legend of Zelda - The Wind Waker	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Title Theme - The Legend of Zelda - The Wind Waker_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_TitleScreen\Music_TitleScreen\Title Theme - The Legend of Zelda - The Wind Waker		23238596
+	475743046	Outset Island - The Legend of Zelda - The Wind Waker HD	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Outset Island - The Legend of Zelda - The Wind Waker HD_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers and Transitions\Explore Stinger\Outset Island - The Legend of Zelda - The Wind Waker HD		24034392
+	561967331	Wind Waker - Ocean Theme	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Wind Waker - Ocean Theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_Explore\Explore Main Body\Wind Waker - Ocean Theme		31394932
+	600474146	Game Over - The Legend of Zelda - Breath of the Wild Soundtrack	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Game Over - The Legend of Zelda - Breath of the Wild Soundtrack_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_GameOver\Game Over\Game Over - The Legend of Zelda - Breath of the Wild Soundtrack		2117724
 	740315522	Untitled	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Untitled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\Untitled		49468
 	804263482	UI Super Confirm_01	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\UI Super Confirm_01_8A073268.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\UI Super Confirm_01		262244
 
