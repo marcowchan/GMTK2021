@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\</ProjectRoot>
+		<SourceFilesRoot>H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>H:\Github\GMTK2021\Content\Sound Data\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="133758195">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="1097378212" Name="Env_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01"/>
+				<AuxBus Id="1097378214" Name="Env_03" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03"/>
+				<AuxBus Id="1097378215" Name="Env_02" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02"/>
+			</IncludedAuxBusses>
+			<StateGroups>
+				<StateGroup Id="3161908922" Name="Main" ObjectPath="\States\Default Work Unit\Main">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Main\None"/>
+						<State Id="3853285476" Name="Title_Screen" ObjectPath="\States\Default Work Unit\Main\Title_Screen"/>
+						<State Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01"/>
+						<State Id="1432716332" Name="Game_Over" ObjectPath="\States\Default Work Unit\Main\Game_Over"/>
+						<State Id="1156398959" Name="Section_02" ObjectPath="\States\Default Work Unit\Main\Section_02"/>
+						<State Id="1156398958" Name="Section_03" ObjectPath="\States\Default Work Unit\Main\Section_03"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Main\Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="2430475419">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1559875400" Name="Back" ObjectPath="\Events\Default Work Unit\SFX\UI\Back">
+					<IncludedMemoryFiles>
+						<File Id="740315522" Language="SFX">
+							<ShortName>Untitled.wav</ShortName>
+							<Path>SFX\Untitled_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1097378212" Name="Env_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01"/>
+						<AuxBus Id="1097378214" Name="Env_03" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03"/>
+						<AuxBus Id="1097378215" Name="Env_02" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1517537939" Name="Confirm" ObjectPath="\Events\Default Work Unit\SFX\UI\Confirm">
+					<IncludedMemoryFiles>
+						<File Id="804263482" Language="SFX">
+							<ShortName>UI Super Confirm_01.wav</ShortName>
+							<Path>SFX\UI Super Confirm_01_8A073268.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="1097378212" Name="Env_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01"/>
+						<AuxBus Id="1097378214" Name="Env_03" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03"/>
+						<AuxBus Id="1097378215" Name="Env_02" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="1981978752" Name="Launch_New_Game" ObjectPath="\Events\Default Work Unit\SFX\UI\Launch_New_Game">
+					<IncludedMemoryFiles>
+						<File Id="397574501" Language="SFX">
+							<ShortName>Title Theme - The Legend of Zelda - The Wind Waker.wav</ShortName>
+							<Path>SFX\Title Theme - The Legend of Zelda - The Wind Waker_D79FB2B7.wem</Path>
+						</File>
+						<File Id="475743046" Language="SFX">
+							<ShortName>Outset Island - The Legend of Zelda - The Wind Waker HD.wav</ShortName>
+							<Path>SFX\Outset Island - The Legend of Zelda - The Wind Waker HD_D79FB2B7.wem</Path>
+						</File>
+						<File Id="479048816" Language="SFX">
+							<ShortName>dog_2_small_bark_01.wav</ShortName>
+							<Path>SFX\dog_2_small_bark_01_10C4C929.wem</Path>
+						</File>
+						<File Id="561967331" Language="SFX">
+							<ShortName>Wind Waker - Ocean Theme.wav</ShortName>
+							<Path>SFX\Wind Waker - Ocean Theme_D79FB2B7.wem</Path>
+						</File>
+						<File Id="600474146" Language="SFX">
+							<ShortName>Game Over - The Legend of Zelda - Breath of the Wild Soundtrack.wav</ShortName>
+							<Path>SFX\Game Over - The Legend of Zelda - Breath of the Wild Soundtrack_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{E2D38AFD-B0E7-450C-8BF9-B47032CD5E44}">
+							<Media>
+								<File Id="397574501"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{24F2F3C5-1D50-4F61-82BC-24C89E671567}">
+							<Media>
+								<File Id="600474146"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}">
+							<Media>
+								<File Id="475743046"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{33A6E9D3-1DAD-4A2D-ACEB-5FFA861EB087}">
+							<Media>
+								<File Id="561967331"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01"/>
+					</ActionSetState>
+				</Event>
+			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01">
+					<States/>
+				</StateGroup>
+				<StateGroup Id="3161908922" Name="Main" ObjectPath="\States\Default Work Unit\Main">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Main\None"/>
+						<State Id="3853285476" Name="Title_Screen" ObjectPath="\States\Default Work Unit\Main\Title_Screen"/>
+						<State Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01"/>
+						<State Id="1432716332" Name="Game_Over" ObjectPath="\States\Default Work Unit\Main\Game_Over"/>
+						<State Id="1156398959" Name="Section_02" ObjectPath="\States\Default Work Unit\Main\Section_02"/>
+						<State Id="1156398958" Name="Section_03" ObjectPath="\States\Default Work Unit\Main\Section_03"/>
+						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Main\Victory"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
