@@ -34,7 +34,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2750173460">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2430475419">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -75,6 +75,10 @@
 							<ShortName>Outset Island - The Legend of Zelda - The Wind Waker HD.wav</ShortName>
 							<Path>SFX\Outset Island - The Legend of Zelda - The Wind Waker HD_D79FB2B7.wem</Path>
 						</File>
+						<File Id="479048816" Language="SFX">
+							<ShortName>dog_2_small_bark_01.wav</ShortName>
+							<Path>SFX\dog_2_small_bark_01_10C4C929.wem</Path>
+						</File>
 						<File Id="561967331" Language="SFX">
 							<ShortName>Wind Waker - Ocean Theme.wav</ShortName>
 							<Path>SFX\Wind Waker - Ocean Theme_D79FB2B7.wem</Path>
@@ -107,11 +111,14 @@
 						</SwitchContainer>
 					</SwitchContainers>
 					<ActionSetState>
-						<ActionSetStateEntry Id="3853285476" Name="Title_Screen" ObjectPath="\States\Default Work Unit\Main\Title_Screen"/>
+						<ActionSetStateEntry Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01"/>
 					</ActionSetState>
 				</Event>
 			</IncludedEvents>
 			<StateGroups>
+				<StateGroup Id="1156398956" Name="Section_01" ObjectPath="\States\Default Work Unit\Main\Section_01">
+					<States/>
+				</StateGroup>
 				<StateGroup Id="3161908922" Name="Main" ObjectPath="\States\Default Work Unit\Main">
 					<States>
 						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Main\None"/>
@@ -122,9 +129,6 @@
 						<State Id="1156398958" Name="Section_03" ObjectPath="\States\Default Work Unit\Main\Section_03"/>
 						<State Id="2716678721" Name="Victory" ObjectPath="\States\Default Work Unit\Main\Victory"/>
 					</States>
-				</StateGroup>
-				<StateGroup Id="3853285476" Name="Title_Screen" ObjectPath="\States\Default Work Unit\Main\Title_Screen">
-					<States/>
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
