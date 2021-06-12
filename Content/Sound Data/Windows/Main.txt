@@ -2,25 +2,36 @@ Event	ID	Name			Wwise Object Path	Notes
 	1517537939	Confirm			\Default Work Unit\SFX\UI\Confirm	
 	1559875400	Back			\Default Work Unit\SFX\UI\Back	
 	1981978752	Launch_New_Game			\Default Work Unit\SFX\UI\Launch_New_Game	
+	3223721789	Player_Dog_Bark_Ability			\Default Work Unit\SFX\Player Character\Player_Dog_Bark_Ability	
 
 State Group	ID	Name			Wwise Object Path	Notes
 	3161908922	Main			\Default Work Unit\Main	
 
 State	ID	Name	State Group			Notes
+	148717593	Start_Outside_Building_00	Main			
 	748895195	None	Main			
-	1156398956	Section_01	Main			
-	1156398958	Section_03	Main			
-	1156398959	Section_02	Main			
+	786120316	Tranquility_02_Food_Stall_05	Main			
+	1408082984	Setpiece_03_Food_Stall_06	Main			
 	1432716332	Game_Over	Main			
-	2716678721	Victory	Main			
-	3853285476	Title_Screen	Main			
+	1932341509	Tranquility_01_ParkEnt_03	Main			
+	3308996381	Setpiece_01_Road_02	Main			
+	3388045195	Victory_07	Main			
+	3808448363	Setpiece_02_ParkGarden_04	Main			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	53882352	Shiba dog 006 Bark sequence NTG3	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_2FA9BBA5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3		230464
+	103848594	Bossa_88bpm_4-4_L32_P0M	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Bossa_88bpm_4-4_L32_P0M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_Relaxed\Bossa_88bpm_4-4_L32_P0M\Bossa_88bpm_4-4_L32_P0M		15700912
+	156617815	Shiba dog 006 Bark sequence NTG3_05	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_374A6AC8.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3_05		209984
+	267185064	Dog Bark Magic Layer 3	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Dog Bark Magic Layer 3_6E1B8637.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Dog Bark Magic Layer 3		656544
+	274456793	FanfareJingle3_120bpm_4-4_L1M_P0M	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\FanfareJingle3_120bpm_4-4_L1M_P0M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Jingles\FanfareJingle3_120bpm_4-4_L1M_P0M\FanfareJingle3_120bpm_4-4_L1M_P0M		771228
+	318356393	Shiba dog 006 Bark sequence NTG3_02	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_7B953474.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3_02		206912
+	396692236	Shiba dog 006 Bark sequence NTG3_04	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_DAE8D4B4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3_04		216128
 	397574501	Title Theme - The Legend of Zelda - The Wind Waker	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Title Theme - The Legend of Zelda - The Wind Waker_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_TitleScreen\Music_TitleScreen\Title Theme - The Legend of Zelda - The Wind Waker		23238596
 	475743046	Outset Island - The Legend of Zelda - The Wind Waker HD	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Outset Island - The Legend of Zelda - The Wind Waker HD_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Stingers and Transitions\Explore Stinger\Outset Island - The Legend of Zelda - The Wind Waker HD		24034392
-	479048816	dog_2_small_bark_01	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\dog_2_small_bark_01_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player\dog_2_small_bark_01		199412
-	561967331	Wind Waker - Ocean Theme	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Wind Waker - Ocean Theme_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_Explore\Explore Main Body\Wind Waker - Ocean Theme		31394932
 	600474146	Game Over - The Legend of Zelda - Breath of the Wild Soundtrack	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Game Over - The Legend of Zelda - Breath of the Wild Soundtrack_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_GameOver\Game Over\Game Over - The Legend of Zelda - Breath of the Wild Soundtrack		2117724
-	740315522	Untitled	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Untitled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\Untitled		49468
-	804263482	UI Super Confirm_01	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\UI Super Confirm_01_8A073268.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\UI Super Confirm_01		262244
+	710777991	IntenseSynth_176bpm_4-4_L46M_P0M	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\IntenseSynth_176bpm_4-4_L46M_P0M_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Music\Musical_Sections\Music_Intense\IntenseSynth_176bpm_4-4_L46M_P0M\IntenseSynth_176bpm_4-4_L46M_P0M		11533948
+	740315522	UI_Back	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Untitled_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\UI_Back		49468
+	780948832	Shiba dog 012 Bark single NTG3	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_6C54D823.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI\UI\Button\Shiba dog 012 Bark single NTG3		49702
+	924013969	Shiba dog 006 Bark sequence NTG3_03	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_370652FF.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3_03		250944
+	967939492	Shiba dog 006 Bark sequence NTG3_01	H:\Wwise Projects 2021\TGMT21\TestGMTK21\TestGMTK21\.cache\Windows\SFX\Rode NTG3 shotgun\Shiba dog 006 Bark sequence NTG3_46C3747B.wem		\Actor-Mixer Hierarchy\Default Work Unit\Player Character\Player_Dog\Player_Dog_Bark_Ability\Shiba dog 006 Bark sequence NTG3_01		236608
 
