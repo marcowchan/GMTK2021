@@ -9,7 +9,7 @@ public class GMTK2021EditorTarget : TargetRules
 	{
 		Type = TargetType.Editor;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-
+		bUseUnityBuild = false;
 		ExtraModuleNames.AddRange( new string[] { "GMTK2021" } );
 	}
 }

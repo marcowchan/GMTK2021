@@ -6,8 +6,10 @@ public class GMTK2021 : ModuleRules
 {
 	public GMTK2021(ReadOnlyTargetRules Target) : base(Target)
 	{
-		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
+		PCHUsage = PCHUsageMode.NoSharedPCHs;
+
+		PrivatePCHHeaderFile = "GMTK2021.h";
+		
 		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore" });
 
 		PrivateDependencyModuleNames.AddRange(new string[] {  });

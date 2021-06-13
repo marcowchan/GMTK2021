@@ -9,7 +9,7 @@ public class GMTK2021Target : TargetRules
 	{
 		Type = TargetType.Game;
 		DefaultBuildSettings = BuildSettingsVersion.V2;
-
+		bUseUnityBuild = false;
 		ExtraModuleNames.AddRange( new string[] { "GMTK2021" } );
 	}
 }
