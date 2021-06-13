@@ -7,6 +7,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f155000b-142d-4c77-9243-fb46aae230c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2021/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Entities/Owner/Owner.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Entities/Owner/Owner.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GMTK2021.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/GMTK2021.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -259,6 +261,7 @@
       <updated>1623524574996</updated>
       <workItem from="1623524575060" duration="272000" />
       <workItem from="1623525904298" duration="4002000" />
+      <workItem from="1623548307481" duration="741000" />
     </task>
     <servers />
   </component>
