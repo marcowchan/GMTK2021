@@ -23,7 +23,7 @@
 				<GameParameter Id="72115816" Name="Dog_Sidechain" ObjectPath="\Game Parameters\Default Work Unit\Dog_Sidechain"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4271620286">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1754757323">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -98,6 +98,14 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="983968351" Name="Begin_Gameplay" ObjectPath="\Events\Default Work Unit\SFX\Levels\Begin_Gameplay"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="1593864692" Name="Defeat" ObjectPath="\Events\Default Work Unit\SFX\UI\Defeat">
+					<IncludedMemoryFiles>
+						<File Id="780948832" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_6C54D823.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3797583859" Name="End_Credits" ObjectPath="\Events\Default Work Unit\SFX\Levels\End_Credits">
 					<IncludedMemoryFiles>
