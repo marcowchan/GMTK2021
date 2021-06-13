@@ -4,30 +4,9 @@ State Group	ID	Name			Wwise Object Path	Notes
 State	ID	Name	State Group			Notes
 	148717593	Start_Outside_Building_00	Main			
 	748895195	None	Main			
-	786120316	Tranquility_02_Food_Stall_05	Main			
-	1408082984	Setpiece_03_Food_Stall_06	Main			
 	1432716332	Game_Over	Main			
-	1932341509	Tranquility_01_ParkEnt_03	Main			
-	3308996381	Setpiece_01_Road_02	Main			
-	3388045195	Victory_07	Main			
-	3808448363	Setpiece_02_ParkGarden_04	Main			
-
-Custom State	ID	Name	State Group	Owner		Notes
-	20359315	Start_Outside_Building_00	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	66554583	Start_Outside_Building_00	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	117526205	Setpiece_01_Road_02	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	127125737	Tranquility_01_ParkEnt_03	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	157638988	Victory_07	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	270388585	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	313648961	Victory_07	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	320483223	Tranquility_01_ParkEnt_03	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	354171101	Start_Outside_Building_00	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	516648094	Setpiece_02_ParkGarden_04	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	533557121	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	720661400	Setpiece_01_Road_02	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	725815153	Victory_07	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	914992068	Setpiece_02_ParkGarden_04	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	967485987	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
+	1943428109	Ending_06	Main			
+	3308996382	Setpiece_01_Road_01	Main			
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	225339039	Player Character			\Default Work Unit\Master Audio Bus\SFX\Player Character	
@@ -42,15 +21,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1097378212	Env_01			\Default Work Unit\Master Audio Bus\Env_01	
-	1097378214	Env_03			\Default Work Unit\Master Audio Bus\Env_03	
-	1097378215	Env_02			\Default Work Unit\Master Audio Bus\Env_02	
 	2028764831	Dog_Verb			\Default Work Unit\Master Audio Bus\SFX\Dog_Verb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
 	1144018367	Plate_Large	Wwise RoomVerb			
-	2513915904	Hall_Large	Wwise RoomVerb			
-	2791153688	Hall_Small	Wwise RoomVerb			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
