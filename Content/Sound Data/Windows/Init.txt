@@ -8,6 +8,9 @@ State	ID	Name	State Group			Notes
 	1943428109	Ending_06	Main			
 	3308996382	Setpiece_01_Road_01	Main			
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	72115816	Dog_Sidechain			\Default Work Unit\Dog_Sidechain	
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	225339039	Player Character			\Default Work Unit\Master Audio Bus\SFX\Player Character	
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
@@ -25,7 +28,7 @@ Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	1144018367	Plate_Large	Wwise RoomVerb			
+	4201853532	Sidechain_Dog	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
