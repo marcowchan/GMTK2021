@@ -6,14 +6,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f155000b-142d-4c77-9243-fb46aae230c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Source/GMTK2021/Private/GMTK2021PCH.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.GMTK2021/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.GMTK2021/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/BP_Dog.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/BP_Dog.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Dog/BP_Dog.uasset" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Models/Dog/dog.fbx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GMTK2021.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GMTK2021.Target.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GMTK2021/GMTK2021.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GMTK2021/GMTK2021.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/GMTK2021Editor.Target.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/GMTK2021Editor.Target.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +18,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Source/GMTK2021Editor.Target.cs" />
       <option value="$PROJECT_DIR$/Source/GMTK2021.Target.cs" />
-      <option value="$PROJECT_DIR$/Source/GMTK2021/Private/GMTK2021PCH.h" />
+      <option value="$PROJECT_DIR$/Source/GMTK2021Editor.Target.cs" />
       <option value="$PROJECT_DIR$/Source/GMTK2021/GMTK2021.Build.cs" />
     </changedPaths>
   </component>
@@ -267,8 +259,6 @@
       <updated>1623524574996</updated>
       <workItem from="1623524575060" duration="272000" />
       <workItem from="1623525904298" duration="4002000" />
-      <workItem from="1623548307481" duration="741000" />
-      <workItem from="1623554808486" duration="6058000" />
     </task>
     <servers />
   </component>
@@ -277,17 +267,6 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
