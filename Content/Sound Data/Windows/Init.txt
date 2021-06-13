@@ -2,30 +2,14 @@ State Group	ID	Name			Wwise Object Path	Notes
 	3161908922	Main			\Default Work Unit\Main	
 
 State	ID	Name	State Group			Notes
+	148717593	Start_Outside_Building_00	Main			
 	748895195	None	Main			
-	1156398956	Section_01	Main			
-	1156398958	Section_03	Main			
-	1156398959	Section_02	Main			
 	1432716332	Game_Over	Main			
-	2716678721	Victory	Main			
-	3853285476	Title_Screen	Main			
+	1943428109	Ending_06	Main			
+	3308996382	Setpiece_01_Road_01	Main			
 
-Custom State	ID	Name	State Group	Owner		Notes
-	20359315	Title_Screen	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	66554583	Title_Screen	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	117526205	Section_01	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	127125737	Section_02	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	157638988	Victory	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	270388585	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	313648961	Victory	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	320483223	Section_02	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	354171101	Title_Screen	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	516648094	Section_03	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
-	533557121	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	720661400	Section_01	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	725815153	Victory	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_03		
-	914992068	Section_03	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_02		
-	967485987	Game_Over	Main	\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01		
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	72115816	Dog_Sidechain			\Default Work Unit\Dog_Sidechain	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	225339039	Player Character			\Default Work Unit\Master Audio Bus\SFX\Player Character	
@@ -40,13 +24,11 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Auxiliary Bus	ID	Name			Wwise Object Path	Notes
 	1097378212	Env_01			\Default Work Unit\Master Audio Bus\Env_01	
-	1097378214	Env_03			\Default Work Unit\Master Audio Bus\Env_03	
-	1097378215	Env_02			\Default Work Unit\Master Audio Bus\Env_02	
+	2028764831	Dog_Verb			\Default Work Unit\Master Audio Bus\SFX\Dog_Verb	
 
 Effect plug-ins	ID	Name	Type				Notes
 	48620415	Have_U_Ever_Been_Outside	Wwise RoomVerb			
-	2513915904	Hall_Large	Wwise RoomVerb			
-	2791153688	Hall_Small	Wwise RoomVerb			
+	4201853532	Sidechain_Dog	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
