@@ -20,7 +20,7 @@
 				<AuxBus Id="2028764831" Name="Dog_Verb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Dog_Verb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1190960421">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1074037989">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
