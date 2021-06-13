@@ -11,7 +11,7 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="678550048">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3462786744">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -23,32 +23,102 @@
 				<GameParameter Id="72115816" Name="Dog_Sidechain" ObjectPath="\Game Parameters\Default Work Unit\Dog_Sidechain"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3428733436">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4271620286">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1559875400" Name="Back" ObjectPath="\Events\Default Work Unit\SFX\UI\Back">
+				<Event Id="983968351" Name="Begin_Gameplay" ObjectPath="\Events\Default Work Unit\SFX\Levels\Begin_Gameplay">
 					<IncludedMemoryFiles>
-						<File Id="740315522" Language="SFX">
-							<ShortName>Untitled.wav</ShortName>
-							<Path>SFX\Untitled_10C4C929.wem</Path>
+						<File Id="241771613" Language="SFX">
+							<ShortName>02-City_-Light-Light-City-Ambience_-Distant-Rumble_-Distant-Traffic_-Birds.wav</ShortName>
+							<Path>SFX\02-City_-Light-Light-City-Ambience_-Distant-Rumble_-Distant-Traffic_-Birds_F247DE87.wem</Path>
 						</File>
-						<File Id="780948832" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_6C54D823.wem</Path>
+						<File Id="662927799" Language="SFX">
+							<ShortName>VoiceClips1.wav</ShortName>
+							<Path>SFX\VoiceClips1_7BFE234C.wem</Path>
+						</File>
+						<File Id="987445686" Language="SFX">
+							<ShortName>DarkSoulsStartClips1.wav</ShortName>
+							<Path>SFX\DarkSoulsStartClips1_0D4874B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="3308996382" Name="Setpiece_01_Road_01" ObjectPath="\States\Default Work Unit\Main\Setpiece_01_Road_01"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2024455115" Name="Break_Old_Man_Walk" ObjectPath="\Events\Default Work Unit\SFX\NPCs (Dialogue)\Break_Old_Man_Walk"/>
+				<Event Id="427533042" Name="Break_Player_Walk" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Break_Player_Walk"/>
+				<Event Id="4089233625" Name="Car_Brake" ObjectPath="\Events\Default Work Unit\SFX\Objects\Car_Brake">
+					<IncludedMemoryFiles>
+						<File Id="323927709" Language="SFX">
+							<ShortName>Car_Brake.wav</ShortName>
+							<Path>SFX\Car_Brake_C7DD006F.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="40534165" Name="Stop_Car_Playing" ObjectPath="\Events\Default Work Unit\SFX\Objects\Stop_Car_Playing"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="422348590" Name="Car_Play" ObjectPath="\Events\Default Work Unit\SFX\Objects\Car_Play">
+					<IncludedMemoryFiles>
+						<File Id="406650806" Language="SFX">
+							<ShortName>Car_Driving.wav</ShortName>
+							<Path>SFX\Car_Driving_7C7E2378.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="983968351" Name="Begin_Gameplay" ObjectPath="\Events\Default Work Unit\SFX\Levels\Begin_Gameplay">
+				<Event Id="1517537939" Name="Confirm" ObjectPath="\Events\Default Work Unit\SFX\UI\Confirm">
+					<IncludedMemoryFiles>
+						<File Id="234467359" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_FD2630F4.wem</Path>
+						</File>
+						<File Id="405076241" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_02DDD1BA.wem</Path>
+						</File>
+						<File Id="418070886" Language="SFX">
+							<ShortName>Start_Jingle_180bpm_4-4_L1M_P1M.wav</ShortName>
+							<Path>SFX\Start_Jingle_180bpm_4-4_L1M_P1M_4E1E03B7.wem</Path>
+						</File>
+						<File Id="525929626" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_EF3AA012.wem</Path>
+						</File>
+						<File Id="540355302" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_611B57B6.wem</Path>
+						</File>
+						<File Id="815256043" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_9C243B36.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="983968351" Name="Begin_Gameplay" ObjectPath="\Events\Default Work Unit\SFX\Levels\Begin_Gameplay"/>
+					</ActionPostEvent>
+				</Event>
+				<Event Id="3797583859" Name="End_Credits" ObjectPath="\Events\Default Work Unit\SFX\Levels\End_Credits">
+					<IncludedMemoryFiles>
+						<File Id="215121576" Language="SFX">
+							<ShortName>EndingTheme_Looping_320bpm_6-8_L24M_P1M.wav</ShortName>
+							<Path>SFX\EndingTheme_Looping_320bpm_6-8_L24M_P1M_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<ActionSetState>
+						<ActionSetStateEntry Id="1943428109" Name="Ending_06" ObjectPath="\States\Default Work Unit\Main\Ending_06"/>
+					</ActionSetState>
+				</Event>
+				<Event Id="2971984037" Name="Launch_Game" ObjectPath="\Events\Default Work Unit\SFX\Levels\Launch_Game">
 					<IncludedMemoryFiles>
 						<File Id="39073637" Language="SFX">
 							<ShortName>Defeat_Theme_80bpm_4-4_L4M_P1M.wav</ShortName>
 							<Path>SFX\Defeat_Theme_80bpm_4-4_L4M_P1M_D79FB2B7.wem</Path>
 						</File>
-						<File Id="241771613" Language="SFX">
-							<ShortName>02-City_-Light-Light-City-Ambience_-Distant-Rumble_-Distant-Traffic_-Birds.wav</ShortName>
-							<Path>SFX\02-City_-Light-Light-City-Ambience_-Distant-Rumble_-Distant-Traffic_-Birds_F247DE87.wem</Path>
+						<File Id="215121576" Language="SFX">
+							<ShortName>EndingTheme_Looping_320bpm_6-8_L24M_P1M.wav</ShortName>
+							<Path>SFX\EndingTheme_Looping_320bpm_6-8_L24M_P1M_D79FB2B7.wem</Path>
 						</File>
 						<File Id="263597073" Language="SFX">
 							<ShortName>LttP1_128bpm_4-4_L2M_P0M_Intro.wav</ShortName>
@@ -62,10 +132,6 @@
 							<ShortName>MainTheme_Intro_104bpm_4-4__L2M_P1M_Anacrusis.wav</ShortName>
 							<Path>SFX\MainTheme_Intro_104bpm_4-4__L2M_P1M_Anacrusis_D79FB2B7.wem</Path>
 						</File>
-						<File Id="662927799" Language="SFX">
-							<ShortName>VoiceClips1.wav</ShortName>
-							<Path>SFX\VoiceClips1_7BFE234C.wem</Path>
-						</File>
 						<File Id="804645353" Language="SFX">
 							<ShortName>LttP1_128bpm_4-4_L16M_P0M_Asec.wav</ShortName>
 							<Path>SFX\LttP1_128bpm_4-4_L16M_P0M_Asec_D79FB2B7.wem</Path>
@@ -78,15 +144,16 @@
 							<ShortName>LttP1_128bpm_4-4_L12M_P0M_Csec.wav</ShortName>
 							<Path>SFX\LttP1_128bpm_4-4_L12M_P0M_Csec_D79FB2B7.wem</Path>
 						</File>
-						<File Id="987445686" Language="SFX">
-							<ShortName>DarkSoulsStartClips1.wav</ShortName>
-							<Path>SFX\DarkSoulsStartClips1_0D4874B7.wem</Path>
-						</File>
 					</IncludedMemoryFiles>
 					<SwitchContainers>
 						<SwitchContainer SwitchValue="{24F2F3C5-1D50-4F61-82BC-24C89E671567}">
 							<Media>
 								<File Id="39073637"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{65DDA583-578B-47F3-BC93-2E7107CE2DBC}">
+							<Media>
+								<File Id="215121576"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{DB063521-3A63-43CB-AD3B-DD9EEC6E454B}">
@@ -104,98 +171,122 @@
 							</Media>
 						</SwitchContainer>
 					</SwitchContainers>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
+					</ActionPostEvent>
 					<ActionSetState>
-						<ActionSetStateEntry Id="3308996382" Name="Setpiece_01_Road_01" ObjectPath="\States\Default Work Unit\Main\Setpiece_01_Road_01"/>
+						<ActionSetStateEntry Id="148717593" Name="Start_Outside_Building_00" ObjectPath="\States\Default Work Unit\Main\Start_Outside_Building_00"/>
 					</ActionSetState>
 				</Event>
-				<Event Id="427533042" Name="Break_Player_Walk" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Break_Player_Walk"/>
-				<Event Id="1517537939" Name="Confirm" ObjectPath="\Events\Default Work Unit\SFX\UI\Confirm">
+				<Event Id="1828866193" Name="Old_Man_Shocked" ObjectPath="\Events\Default Work Unit\SFX\NPCs (Dialogue)\Old_Man_Shocked">
 					<IncludedMemoryFiles>
-						<File Id="780948832" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_6C54D823.wem</Path>
+						<File Id="788941432" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_2EBA4E55.wem</Path>
+						</File>
+						<File Id="989482614" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_A0FE8533.wem</Path>
+						</File>
+						<File Id="990528771" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_F9DCE004.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3797583859" Name="End_Credits" ObjectPath="\Events\Default Work Unit\SFX\Levels\End_Credits">
-					<ActionSetState>
-						<ActionSetStateEntry Id="1943428109" Name="Ending_06" ObjectPath="\States\Default Work Unit\Main\Ending_06"/>
-					</ActionSetState>
-				</Event>
-				<Event Id="2174849634" Name="Pidgeons" ObjectPath="\Events\Default Work Unit\SFX\Objects\Pidgeons">
+				<Event Id="1027856067" Name="Old_Man_Walk" ObjectPath="\Events\Default Work Unit\SFX\NPCs (Dialogue)\Old_Man_Walk">
 					<IncludedMemoryFiles>
-						<File Id="93717070" Language="SFX">
-							<ShortName>pigeon_call_angry_07.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_07_10C4C929.wem</Path>
+						<File Id="128092043" Language="SFX">
+							<ShortName>footstep_concrete_run_03.wav</ShortName>
+							<Path>SFX\footstep_concrete_run_03_10C4C929.wem</Path>
 						</File>
-						<File Id="157241499" Language="SFX">
-							<ShortName>pigeon_call_angry_04.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_04_10C4C929.wem</Path>
+						<File Id="179157679" Language="SFX">
+							<ShortName>footstep_concrete_run_04.wav</ShortName>
+							<Path>SFX\footstep_concrete_run_04_10C4C929.wem</Path>
 						</File>
-						<File Id="385045143" Language="SFX">
-							<ShortName>pigeon_call_angry_10.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_10_10C4C929.wem</Path>
+						<File Id="290472210" Language="SFX">
+							<ShortName>footstep_grass_run_03.wav</ShortName>
+							<Path>SFX\footstep_grass_run_03_10C4C929.wem</Path>
 						</File>
-						<File Id="411859193" Language="SFX">
-							<ShortName>25-Bird_Pigeon-Flapping-Wings_Close-Up.wav</ShortName>
-							<Path>SFX\25-Bird_Pigeon-Flapping-Wings_Close-Up_EFA3C9BB.wem</Path>
+						<File Id="314975747" Language="SFX">
+							<ShortName>footstep_concrete_run_01.wav</ShortName>
+							<Path>SFX\footstep_concrete_run_01_10C4C929.wem</Path>
 						</File>
-						<File Id="444573658" Language="SFX">
-							<ShortName>25-Bird_Pigeon-Flapping-Wings_Close-Up.wav</ShortName>
-							<Path>SFX\25-Bird_Pigeon-Flapping-Wings_Close-Up_74D631D4.wem</Path>
+						<File Id="334638904" Language="SFX">
+							<ShortName>footstep_dirt_loose_walk_run_04.wav</ShortName>
+							<Path>SFX\footstep_dirt_loose_walk_run_04_10C4C929.wem</Path>
 						</File>
-						<File Id="677121906" Language="SFX">
-							<ShortName>25-Bird_Pigeon-Flapping-Wings_Close-Up.wav</ShortName>
-							<Path>SFX\25-Bird_Pigeon-Flapping-Wings_Close-Up_26D340AA.wem</Path>
+						<File Id="387954257" Language="SFX">
+							<ShortName>footstep_grass_run_02.wav</ShortName>
+							<Path>SFX\footstep_grass_run_02_10C4C929.wem</Path>
 						</File>
-						<File Id="710781032" Language="SFX">
-							<ShortName>pigeon_call_angry_09.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_09_10C4C929.wem</Path>
+						<File Id="403427135" Language="SFX">
+							<ShortName>footstep_grass_run_01.wav</ShortName>
+							<Path>SFX\footstep_grass_run_01_10C4C929.wem</Path>
 						</File>
-						<File Id="722653324" Language="SFX">
-							<ShortName>pigeon_call_angry_05.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_05_10C4C929.wem</Path>
+						<File Id="506961418" Language="SFX">
+							<ShortName>footstep_dirt_loose_walk_run_03.wav</ShortName>
+							<Path>SFX\footstep_dirt_loose_walk_run_03_10C4C929.wem</Path>
 						</File>
-						<File Id="753437002" Language="SFX">
-							<ShortName>pigeon_call_angry_01.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_01_10C4C929.wem</Path>
+						<File Id="567765140" Language="SFX">
+							<ShortName>footstep_dirt_loose_walk_run_05.wav</ShortName>
+							<Path>SFX\footstep_dirt_loose_walk_run_05_10C4C929.wem</Path>
 						</File>
-						<File Id="761036876" Language="SFX">
-							<ShortName>pigeon_call_angry_02.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_02_10C4C929.wem</Path>
+						<File Id="598266516" Language="SFX">
+							<ShortName>footstep_concrete_run_05.wav</ShortName>
+							<Path>SFX\footstep_concrete_run_05_10C4C929.wem</Path>
 						</File>
-						<File Id="792925193" Language="SFX">
-							<ShortName>pigeon_call_angry_03.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_03_10C4C929.wem</Path>
+						<File Id="622909405" Language="SFX">
+							<ShortName>footstep_grass_run_05.wav</ShortName>
+							<Path>SFX\footstep_grass_run_05_10C4C929.wem</Path>
 						</File>
-						<File Id="980368979" Language="SFX">
-							<ShortName>pigeon_call_angry_08.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_08_10C4C929.wem</Path>
+						<File Id="706958065" Language="SFX">
+							<ShortName>footstep_grass_run_04.wav</ShortName>
+							<Path>SFX\footstep_grass_run_04_10C4C929.wem</Path>
 						</File>
-						<File Id="1042702810" Language="SFX">
-							<ShortName>pigeon_call_angry_06.wav</ShortName>
-							<Path>SFX\pigeon_call_angry_06_10C4C929.wem</Path>
+						<File Id="726810847" Language="SFX">
+							<ShortName>footstep_concrete_run_02.wav</ShortName>
+							<Path>SFX\footstep_concrete_run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="741539074" Language="SFX">
+							<ShortName>footstep_dirt_loose_walk_run_01.wav</ShortName>
+							<Path>SFX\footstep_dirt_loose_walk_run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="955587105" Language="SFX">
+							<ShortName>footstep_dirt_loose_walk_run_02.wav</ShortName>
+							<Path>SFX\footstep_dirt_loose_walk_run_02_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
-					<AuxBusSends>
-						<AuxBus Id="1097378212" Name="Env_01" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Env_01"/>
-					</AuxBusSends>
-				</Event>
-				<Event Id="3083087645" Name="Player_Death" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Player_Death">
-					<IncludedMemoryFiles>
-						<File Id="49560774" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3_DEBEBECC.wem</Path>
-						</File>
-						<File Id="467142893" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3_EEC45733.wem</Path>
-						</File>
-						<File Id="885413047" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 001 Whimper NTG3_FD8D53D0.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2B245B62-C23C-46A2-AB8D-A808EC587554}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2B245B62-C23C-46A2-AB8D-A808EC587554}">
+							<Media>
+								<File Id="128092043"/>
+								<File Id="179157679"/>
+								<File Id="314975747"/>
+								<File Id="598266516"/>
+								<File Id="726810847"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{A0BA0C38-C8E8-4E65-811A-7CA84D6203C3}">
+							<Media>
+								<File Id="334638904"/>
+								<File Id="506961418"/>
+								<File Id="567765140"/>
+								<File Id="741539074"/>
+								<File Id="955587105"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{197BFF07-B43D-4534-995A-4213230C6B03}">
+							<Media>
+								<File Id="290472210"/>
+								<File Id="387954257"/>
+								<File Id="403427135"/>
+								<File Id="622909405"/>
+								<File Id="706958065"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="456124399" Name="Player_Dog_Bark_Ability_Main_Blend" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Player_Dog_Bark_Ability_Main_Blend">
 					<IncludedMemoryFiles>
@@ -373,79 +464,17 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2161713971" Name="Player_Respawn" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Player_Respawn"/>
-				<Event Id="3974951745" Name="Player_Reunite" ObjectPath="\Events\Default Work Unit\SFX\Player Character\Player_Reunite">
-					<IncludedMemoryFiles>
-						<File Id="223926833" Language="SFX">
-							<ShortName>retro_beeps_success_01.wav</ShortName>
-							<Path>SFX\retro_beeps_success_01_69B25A91.wem</Path>
-						</File>
-						<File Id="234467359" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_FD2630F4.wem</Path>
-						</File>
-						<File Id="405076241" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_02DDD1BA.wem</Path>
-						</File>
-						<File Id="525929626" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_EF3AA012.wem</Path>
-						</File>
-						<File Id="540355302" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_611B57B6.wem</Path>
-						</File>
-						<File Id="815256043" Language="SFX">
-							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
-							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_9C243B36.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="1114964412" Name="Start_Game" ObjectPath="\Events\Default Work Unit\SFX\Levels\Start_Game">
-					<IncludedMemoryFiles>
-						<File Id="39073637" Language="SFX">
-							<ShortName>Defeat_Theme_80bpm_4-4_L4M_P1M.wav</ShortName>
-							<Path>SFX\Defeat_Theme_80bpm_4-4_L4M_P1M_D79FB2B7.wem</Path>
-						</File>
-						<File Id="263597073" Language="SFX">
-							<ShortName>LttP1_128bpm_4-4_L2M_P0M_Intro.wav</ShortName>
-							<Path>SFX\LttP1_128bpm_4-4_L2M_P0M_Intro_D79FB2B7.wem</Path>
-						</File>
-						<File Id="380465888" Language="SFX">
-							<ShortName>LttP1_128bpm_4-4_L12M_P0M_Bsec.wav</ShortName>
-							<Path>SFX\LttP1_128bpm_4-4_L12M_P0M_Bsec_D79FB2B7.wem</Path>
-						</File>
-						<File Id="513830140" Language="SFX">
-							<ShortName>MainTheme_Intro_104bpm_4-4__L2M_P1M_Anacrusis.wav</ShortName>
-							<Path>SFX\MainTheme_Intro_104bpm_4-4__L2M_P1M_Anacrusis_D79FB2B7.wem</Path>
-						</File>
-						<File Id="804645353" Language="SFX">
-							<ShortName>LttP1_128bpm_4-4_L16M_P0M_Asec.wav</ShortName>
-							<Path>SFX\LttP1_128bpm_4-4_L16M_P0M_Asec_D79FB2B7.wem</Path>
-						</File>
-						<File Id="899765878" Language="SFX">
-							<ShortName>MainTheme_MainLoop_104bpm_4-4_L8M_P1M.wav</ShortName>
-							<Path>SFX\MainTheme_MainLoop_104bpm_4-4_L8M_P1M_D79FB2B7.wem</Path>
-						</File>
-						<File Id="914243147" Language="SFX">
-							<ShortName>LttP1_128bpm_4-4_L12M_P0M_Csec.wav</ShortName>
-							<Path>SFX\LttP1_128bpm_4-4_L12M_P0M_Csec_D79FB2B7.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-					<ActionPostEvent>
-						<ActionPostEventEntry Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
-					</ActionPostEvent>
-					<ActionSetState>
-						<ActionSetStateEntry Id="148717593" Name="Start_Outside_Building_00" ObjectPath="\States\Default Work Unit\Main\Start_Outside_Building_00"/>
-					</ActionSetState>
-				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
+				<Event Id="40534165" Name="Stop_Car_Playing" ObjectPath="\Events\Default Work Unit\SFX\Objects\Stop_Car_Playing"/>
 				<Event Id="2716678721" Name="Victory" ObjectPath="\Events\Default Work Unit\SFX\Levels\Victory">
 					<IncludedMemoryFiles>
 						<File Id="117326952" Language="SFX">
 							<ShortName>FanfareJingle3_120bpm_4-4_L1M_P0M.wav</ShortName>
 							<Path>SFX\FanfareJingle3_120bpm_4-4_L1M_P0M_10C4C929.wem</Path>
+						</File>
+						<File Id="215121576" Language="SFX">
+							<ShortName>EndingTheme_Looping_320bpm_6-8_L24M_P1M.wav</ShortName>
+							<Path>SFX\EndingTheme_Looping_320bpm_6-8_L24M_P1M_D79FB2B7.wem</Path>
 						</File>
 						<File Id="219654085" Language="SFX">
 							<ShortName>FanfareJingle2_88bpm_4-4_L1M_P0M.wav</ShortName>
@@ -459,9 +488,21 @@
 							<ShortName>Rode NTG3 shotgun\Shiba dog 026 Misc NTG3.wav</ShortName>
 							<Path>SFX\Rode NTG3 shotgun\Shiba dog 026 Misc NTG3_E099B20D.wem</Path>
 						</File>
+						<File Id="410983785" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_A668F2F0.wem</Path>
+						</File>
 						<File Id="505952327" Language="SFX">
 							<ShortName>Rode NTG3 shotgun\Shiba dog 025 Misc NTG3.wav</ShortName>
 							<Path>SFX\Rode NTG3 shotgun\Shiba dog 025 Misc NTG3_C77BE6FE.wem</Path>
+						</File>
+						<File Id="646335149" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_D248B1F4.wem</Path>
+						</File>
+						<File Id="702409719" Language="SFX">
+							<ShortName>OldManVoices1.wav</ShortName>
+							<Path>SFX\OldManVoices1_D52C2D34.wem</Path>
 						</File>
 						<File Id="755005228" Language="SFX">
 							<ShortName>FanfareJingle1_104bpm_4-4_L1M_P0M.wav</ShortName>
@@ -472,9 +513,13 @@
 							<Path>SFX\Rode NTG3 shotgun\Shiba dog 026 Misc NTG3_E635A2A2.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<ActionPostEvent>
+						<ActionPostEventEntry Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
+					</ActionPostEvent>
 				</Event>
 			</IncludedEvents>
 			<GameParameters>
+				<GameParameter Id="39803142" Name="RTPC_Distance_From_car" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Distance_From_car"/>
 				<GameParameter Id="676550982" Name="RTPC_Player_Bark_Level" ObjectPath="\Game Parameters\Default Work Unit\RTPC_Player_Bark_Level"/>
 			</GameParameters>
 			<StateGroups>
@@ -497,6 +542,15 @@
 					<States/>
 				</StateGroup>
 			</StateGroups>
+			<SwitchGroups>
+				<SwitchGroup Id="2377402699" Name="FS_Surface_Type" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type">
+					<Switches>
+						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Concrete"/>
+						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Dirt"/>
+						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Grass"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>
