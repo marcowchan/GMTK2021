@@ -23,7 +23,7 @@
 				<GameParameter Id="72115816" Name="Dog_Sidechain" ObjectPath="\Game Parameters\Default Work Unit\Dog_Sidechain"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="4271620286">
+		<SoundBank Id="3161908922" Language="SFX" Hash="4230439296">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -98,6 +98,14 @@
 					<ActionPostEvent>
 						<ActionPostEventEntry Id="983968351" Name="Begin_Gameplay" ObjectPath="\Events\Default Work Unit\SFX\Levels\Begin_Gameplay"/>
 					</ActionPostEvent>
+				</Event>
+				<Event Id="1593864692" Name="Defeat" ObjectPath="\Events\Default Work Unit\SFX\UI\Defeat">
+					<IncludedMemoryFiles>
+						<File Id="780948832" Language="SFX">
+							<ShortName>Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3.wav</ShortName>
+							<Path>SFX\Rode NTG3 shotgun\Shiba dog 012 Bark single NTG3_6C54D823.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3797583859" Name="End_Credits" ObjectPath="\Events\Default Work Unit\SFX\Levels\End_Credits">
 					<IncludedMemoryFiles>
@@ -212,10 +220,6 @@
 							<ShortName>footstep_concrete_run_01.wav</ShortName>
 							<Path>SFX\footstep_concrete_run_01_10C4C929.wem</Path>
 						</File>
-						<File Id="334638904" Language="SFX">
-							<ShortName>footstep_dirt_loose_walk_run_04.wav</ShortName>
-							<Path>SFX\footstep_dirt_loose_walk_run_04_10C4C929.wem</Path>
-						</File>
 						<File Id="387954257" Language="SFX">
 							<ShortName>footstep_grass_run_02.wav</ShortName>
 							<Path>SFX\footstep_grass_run_02_10C4C929.wem</Path>
@@ -223,14 +227,6 @@
 						<File Id="403427135" Language="SFX">
 							<ShortName>footstep_grass_run_01.wav</ShortName>
 							<Path>SFX\footstep_grass_run_01_10C4C929.wem</Path>
-						</File>
-						<File Id="506961418" Language="SFX">
-							<ShortName>footstep_dirt_loose_walk_run_03.wav</ShortName>
-							<Path>SFX\footstep_dirt_loose_walk_run_03_10C4C929.wem</Path>
-						</File>
-						<File Id="567765140" Language="SFX">
-							<ShortName>footstep_dirt_loose_walk_run_05.wav</ShortName>
-							<Path>SFX\footstep_dirt_loose_walk_run_05_10C4C929.wem</Path>
 						</File>
 						<File Id="598266516" Language="SFX">
 							<ShortName>footstep_concrete_run_05.wav</ShortName>
@@ -248,14 +244,6 @@
 							<ShortName>footstep_concrete_run_02.wav</ShortName>
 							<Path>SFX\footstep_concrete_run_02_10C4C929.wem</Path>
 						</File>
-						<File Id="741539074" Language="SFX">
-							<ShortName>footstep_dirt_loose_walk_run_01.wav</ShortName>
-							<Path>SFX\footstep_dirt_loose_walk_run_01_10C4C929.wem</Path>
-						</File>
-						<File Id="955587105" Language="SFX">
-							<ShortName>footstep_dirt_loose_walk_run_02.wav</ShortName>
-							<Path>SFX\footstep_dirt_loose_walk_run_02_10C4C929.wem</Path>
-						</File>
 					</IncludedMemoryFiles>
 					<DefaultSwitchValue>{2B245B62-C23C-46A2-AB8D-A808EC587554}</DefaultSwitchValue>
 					<SwitchContainers>
@@ -266,15 +254,6 @@
 								<File Id="314975747"/>
 								<File Id="598266516"/>
 								<File Id="726810847"/>
-							</Media>
-						</SwitchContainer>
-						<SwitchContainer SwitchValue="{A0BA0C38-C8E8-4E65-811A-7CA84D6203C3}">
-							<Media>
-								<File Id="334638904"/>
-								<File Id="506961418"/>
-								<File Id="567765140"/>
-								<File Id="741539074"/>
-								<File Id="955587105"/>
 							</Media>
 						</SwitchContainer>
 						<SwitchContainer SwitchValue="{197BFF07-B43D-4534-995A-4213230C6B03}">
@@ -414,6 +393,10 @@
 							<ShortName>foley_soldier_gear_equipment_metal_clip_movement_01.wav</ShortName>
 							<Path>SFX\foley_soldier_gear_equipment_metal_clip_movement_01_10C4C929.wem</Path>
 						</File>
+						<File Id="290472210" Language="SFX">
+							<ShortName>footstep_grass_run_03.wav</ShortName>
+							<Path>SFX\footstep_grass_run_03_10C4C929.wem</Path>
+						</File>
 						<File Id="300082611" Language="SFX">
 							<ShortName>foley_object_grab_pickup_01.wav</ShortName>
 							<Path>SFX\foley_object_grab_pickup_01_10C4C929.wem</Path>
@@ -421,6 +404,14 @@
 						<File Id="314975747" Language="SFX">
 							<ShortName>footstep_concrete_run_01.wav</ShortName>
 							<Path>SFX\footstep_concrete_run_01_10C4C929.wem</Path>
+						</File>
+						<File Id="387954257" Language="SFX">
+							<ShortName>footstep_grass_run_02.wav</ShortName>
+							<Path>SFX\footstep_grass_run_02_10C4C929.wem</Path>
+						</File>
+						<File Id="403427135" Language="SFX">
+							<ShortName>footstep_grass_run_01.wav</ShortName>
+							<Path>SFX\footstep_grass_run_01_10C4C929.wem</Path>
 						</File>
 						<File Id="461096398" Language="SFX">
 							<ShortName>foley_object_grab_pickup_02.wav</ShortName>
@@ -433,6 +424,14 @@
 						<File Id="598266516" Language="SFX">
 							<ShortName>footstep_concrete_run_05.wav</ShortName>
 							<Path>SFX\footstep_concrete_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="622909405" Language="SFX">
+							<ShortName>footstep_grass_run_05.wav</ShortName>
+							<Path>SFX\footstep_grass_run_05_10C4C929.wem</Path>
+						</File>
+						<File Id="706958065" Language="SFX">
+							<ShortName>footstep_grass_run_04.wav</ShortName>
+							<Path>SFX\footstep_grass_run_04_10C4C929.wem</Path>
 						</File>
 						<File Id="712930609" Language="SFX">
 							<ShortName>58-Dog_Licking-DOG-Licking-Mouth-While-Panting_-Misc-Panting-X-3.wav</ShortName>
@@ -463,6 +462,50 @@
 							<Path>SFX\58-Dog_Licking-DOG-Licking-Mouth-While-Panting_-Misc-Panting-X-3_6D51284D.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
+					<DefaultSwitchValue>{2B245B62-C23C-46A2-AB8D-A808EC587554}</DefaultSwitchValue>
+					<SwitchContainers>
+						<SwitchContainer SwitchValue="{2B245B62-C23C-46A2-AB8D-A808EC587554}">
+							<Media>
+								<File Id="1602004"/>
+								<File Id="9909178"/>
+								<File Id="112143518"/>
+								<File Id="113600703"/>
+								<File Id="128092043"/>
+								<File Id="179157679"/>
+								<File Id="188146059"/>
+								<File Id="300082611"/>
+								<File Id="314975747"/>
+								<File Id="461096398"/>
+								<File Id="486805356"/>
+								<File Id="598266516"/>
+								<File Id="712930609"/>
+								<File Id="726810847"/>
+								<File Id="829316819"/>
+								<File Id="889656621"/>
+								<File Id="894964877"/>
+								<File Id="902627039"/>
+								<File Id="907724771"/>
+							</Media>
+						</SwitchContainer>
+						<SwitchContainer SwitchValue="{197BFF07-B43D-4534-995A-4213230C6B03}">
+							<Media>
+								<File Id="1602004"/>
+								<File Id="9909178"/>
+								<File Id="112143518"/>
+								<File Id="113600703"/>
+								<File Id="188146059"/>
+								<File Id="290472210"/>
+								<File Id="387954257"/>
+								<File Id="403427135"/>
+								<File Id="486805356"/>
+								<File Id="622909405"/>
+								<File Id="706958065"/>
+								<File Id="712930609"/>
+								<File Id="889656621"/>
+								<File Id="907724771"/>
+							</Media>
+						</SwitchContainer>
+					</SwitchContainers>
 				</Event>
 				<Event Id="452547817" Name="Stop_All" ObjectPath="\Events\Default Work Unit\Stop_All"/>
 				<Event Id="40534165" Name="Stop_Car_Playing" ObjectPath="\Events\Default Work Unit\SFX\Objects\Stop_Car_Playing"/>
@@ -545,9 +588,8 @@
 			<SwitchGroups>
 				<SwitchGroup Id="2377402699" Name="FS_Surface_Type" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type">
 					<Switches>
-						<Switch Id="841620460" Name="Concrete" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Concrete"/>
-						<Switch Id="2195636714" Name="Dirt" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Dirt"/>
-						<Switch Id="4248645337" Name="Grass" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\Grass"/>
+						<Switch Id="1554534098" Name="PM_Concrete" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\PM_Concrete"/>
+						<Switch Id="761628071" Name="PM_Grass" ObjectPath="\Switches\Default Work Unit\FS_Surface_Type\PM_Grass"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
